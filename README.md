@@ -1,6 +1,6 @@
 # Same scan, different pipeline — analysis code
 
-Code and aggregate results for *"Same scan, different pipeline: coverage of frozen conformal brain-age intervals when structural MRI is re-processed"* (manuscript in submission).
+Code and aggregate results for *"Same scan, different pipeline: coverage of frozen conformal brain-age intervals when structural MRI is re-processed"* (manuscript in submission). Archived at [doi:10.5281/zenodo.23816898](https://doi.org/10.5281/zenodo.23816898).
 
 A ridge brain-age model with a 90% split-conformal interval is trained on one structural MRI pipeline (FreeSurfer 5.1/5.3/6.0, ANTs, CIVET 2.1; ABIDE I cortical thickness) and applied, frozen, to the same subjects processed by another pipeline. The code evaluates coverage, label-free adaptations, labelled recalibration, a drift monitor, and age-conditional coverage.
 

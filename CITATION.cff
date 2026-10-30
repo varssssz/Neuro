@@ -6,4 +6,5 @@ authors:
     given-names: "[Given name]"
 version: "1.0.0"
 license: MIT
+doi: "10.5281/zenodo.23816898"
 repository-code: "[GitHub URL]"
