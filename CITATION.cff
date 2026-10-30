@@ -2,8 +2,14 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the accompanying article."
 title: "Same scan, different pipeline: coverage of frozen conformal brain-age intervals when structural MRI is re-processed — analysis code"
 authors:
-  - family-names: "[Family name]"
-    given-names: "[Given name]"
+  - family-names: "Arul Dhason"
+    given-names: "Pelvarson"
+  - family-names: "Cheriyan"
+    given-names: "Amith Sam"
+  - family-names: "Dawn"
+    given-names: "Rohan"
+  - family-names: "M"
+    given-names: "Yamuna"
 version: "1.0.0"
 license: MIT
 doi: "10.5281/zenodo.23816898"
