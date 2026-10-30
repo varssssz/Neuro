@@ -1,0 +1,14 @@
+result_file,stage_call,code_path,seeds,qc_level,units,phase1_status,sha256_16
+transitions_main.csv,"run_all.stage_main(level=1, extras=True, PAIRS, 'main')",swap_engine.run_transition + run_all.summarize,0-4,QC1,20 main transitions,REPRODUCED exactly (all 43 numeric cols; Phase 1 reproduce_main.py),f530c76c2256d9fd
+per_subject_main.csv,stage_main(...'main'),run_transition (seed-mean indicators),0-4,QC1,20,IDs/order/age/site/dx verified vs phenotype; values implied by transitions_main reproduction,c8dd521cf76918fb
+recal_main.csv,stage_main(...'main') do_reform,"run_transition do_reform block (pool=np.r_[tr,ca])",0-4 (+100 draws/fold),QC1,"20 x k{10,20,40,80,160} x 2 variants",REPRODUCED exactly for FS60->ANTS and CIVET->FS51 (reform_raw); protocol issue: recal pool 75% training subjects,e0a200b5c169140b
+strata_main.csv,run_all.stage_strata('main'),per_subject_main + swap_engine.wilson,-,QC1,20 x strata n>=20,NOT re-executed; derived deterministically from per_subject_main; manuscript Table 2 recomputed from per_subject_main and matches,1bf70a1bed0564c4
+transitions_atlas.csv / per_subject_atlas.csv,"stage_main(1, extras=False, ATLAS_PAIRS, 'atlas')",run_transition (src/raw/std only),0-4,QC1,6 atlas pairs,N verified; values not re-executed,bc81b35147047dc4
+transitions_qc0.csv / per_subject_qc0.csv,"stage_main(0, False, PAIRS, 'qc0')",run_transition,0-4,QC0,20,N verified; values not re-executed,f3ed68b82076195d
+transitions_qc2.csv / per_subject_qc2.csv,"stage_main(2, False, PAIRS, 'qc2')",run_transition,0-4,QC2,20,N verified; values not re-executed,3d7d54ba834060ed
+lgbm.csv,run_all.stage_lgbm(1),swap_engine.run_lgbm,0-2,QC1,20,NOT re-executable here (lightgbm unavailable: PyPI blocked),5ac71530276d92c5
+monitors_b25/b50/b100.csv,"run_all.stage_monitor(1, b)",swap_engine.run_monitor,0,QC1,20,b50 REPRODUCED exactly for 2 transitions,(multiple)
+mixed_pipeline.csv,run_all.stage_mixed(1),swap_engine.run_mixed,0-4,QC1 (all-5-pipeline intersection),"5 targets, N=669",N verified; values not re-executed,64897e68bd7a8773
+loso_by_site.csv / loso_pooled.csv,run_all.stage_loso(1),inline in stage_loso + swap_engine.site_z,0-4,QC1,20 x 6 sites,split disjointness verified; values not re-executed,7ef223e7299e810a
+matched_N_by_site.csv / matched_N_summary.csv,run_all.stage_matched_n(),abide_data.matched_ids,-,QC0/1/2,26 pairs,REPRODUCED exactly (all 26 pairs x 3 QC levels),2de4743696a87843
+Figures_and_Tables/*,make_figs.py,"reads transitions_main, recal_main, strata_main",-,-,-,not re-rendered in Phase 1,(multiple)

@@ -1,0 +1,7 @@
+pipeline,rows_loaded,rows_without_subject_id,duplicate_ids_dropped_keep_first,n_features_loaded,rows_with_any_nan
+FS51,1112,0,0,68,0
+FS53,976,0,0,68,0
+FS60,1047,0,0,63,0
+ANTS,1101,0,0,62,0
+CIVET,899,0,0,62,0
+FS60DK,1047,0,0,68,0

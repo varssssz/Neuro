@@ -1,0 +1,174 @@
+matched N summary (QC0/QC1/QC2) min-max: {'N_noQC': {'min': 801.0, 'max': 1101.0}, 'N_QC1': {'min': 692.0, 'max': 967.0}, 'N_QC2': {'min': 200.0, 'max': 235.0}}
+[main] FS51->FS53 N=859 src=0.905 raw=0.807 std=0.884 (2.5s)
+[main] FS51->FS60 N=925 src=0.919 raw=0.822 std=0.897 (2.3s)
+[main] FS51->ANTS N=967 src=0.908 raw=0.720 std=0.828 (2.5s)
+[main] FS51->CIVET N=781 src=0.913 raw=0.115 std=0.757 (2.2s)
+[main] FS53->FS51 N=859 src=0.916 raw=0.876 std=0.925 (2.6s)
+[main] FS53->FS60 N=832 src=0.906 raw=0.899 std=0.905 (2.8s)
+[main] FS53->ANTS N=853 src=0.909 raw=0.660 std=0.836 (2.5s)
+[main] FS53->CIVET N=692 src=0.904 raw=0.010 std=0.769 (2.2s)
+[main] FS60->FS51 N=925 src=0.918 raw=0.795 std=0.922 (2.5s)
+[main] FS60->FS53 N=832 src=0.914 raw=0.908 std=0.911 (2.8s)
+[main] FS60->ANTS N=919 src=0.911 raw=0.634 std=0.825 (2.7s)
+[main] FS60->CIVET N=752 src=0.904 raw=0.001 std=0.789 (2.4s)
+[main] ANTS->FS51 N=967 src=0.911 raw=0.830 std=0.860 (3.0s)
+[main] ANTS->FS53 N=853 src=0.905 raw=0.749 std=0.842 (2.6s)
+[main] ANTS->FS60 N=919 src=0.908 raw=0.724 std=0.864 (2.5s)
+[main] ANTS->CIVET N=779 src=0.910 raw=0.820 std=0.830 (2.4s)
+[main] CIVET->FS51 N=781 src=0.915 raw=0.073 std=0.895 (2.2s)
+[main] CIVET->FS53 N=692 src=0.904 raw=0.082 std=0.875 (2.3s)
+[main] CIVET->FS60 N=752 src=0.901 raw=0.059 std=0.881 (2.1s)
+[main] CIVET->ANTS N=779 src=0.915 raw=0.029 std=0.873 (2.5s)
+[atlas] FS60DK->FS60 N=927 src=0.914 raw=0.914 std=0.914 (0.3s)
+[atlas] FS60->FS60DK N=927 src=0.916 raw=0.912 std=0.915 (0.4s)
+[atlas] FS60DK->FS53 N=832 src=0.911 raw=0.905 std=0.910 (0.3s)
+[atlas] FS53->FS60DK N=832 src=0.906 raw=0.897 std=0.901 (0.3s)
+[atlas] FS60DK->FS51 N=925 src=0.918 raw=0.811 std=0.925 (0.3s)
+[atlas] FS51->FS60DK N=925 src=0.919 raw=0.816 std=0.895 (0.4s)
+[qc0] FS51->FS53 N=976 src=0.912 raw=0.808 std=0.897 (0.4s)
+[qc0] FS51->FS60 N=1047 src=0.901 raw=0.783 std=0.884 (0.4s)
+[qc0] FS51->ANTS N=1101 src=0.902 raw=0.635 std=0.815 (0.4s)
+[qc0] FS51->CIVET N=899 src=0.904 raw=0.124 std=0.776 (0.4s)
+[qc0] FS53->FS51 N=976 src=0.915 raw=0.854 std=0.923 (0.4s)
+[qc0] FS53->FS60 N=942 src=0.906 raw=0.901 std=0.895 (0.4s)
+[qc0] FS53->ANTS N=975 src=0.913 raw=0.616 std=0.823 (0.4s)
+[qc0] FS53->CIVET N=801 src=0.916 raw=0.017 std=0.808 (0.3s)
+[qc0] FS60->FS51 N=1047 src=0.904 raw=0.718 std=0.905 (0.3s)
+[qc0] FS60->FS53 N=942 src=0.905 raw=0.890 std=0.901 (0.3s)
+[qc0] FS60->ANTS N=1046 src=0.902 raw=0.515 std=0.771 (0.3s)
+[qc0] FS60->CIVET N=863 src=0.913 raw=0.009 std=0.801 (0.3s)
+[qc0] ANTS->FS51 N=1101 src=0.906 raw=0.868 std=0.867 (0.4s)
+[qc0] ANTS->FS53 N=975 src=0.909 raw=0.842 std=0.847 (0.3s)
+[qc0] ANTS->FS60 N=1046 src=0.899 raw=0.762 std=0.835 (0.3s)
+[qc0] ANTS->CIVET N=898 src=0.910 raw=0.669 std=0.833 (0.3s)
+[qc0] CIVET->FS51 N=899 src=0.905 raw=0.062 std=0.869 (0.3s)
+[qc0] CIVET->FS53 N=801 src=0.911 raw=0.071 std=0.862 (0.3s)
+[qc0] CIVET->FS60 N=863 src=0.903 raw=0.065 std=0.882 (0.3s)
+[qc0] CIVET->ANTS N=898 src=0.911 raw=0.002 std=0.853 (0.3s)
+[qc2] FS51->FS53 N=233 src=0.933 raw=0.700 std=0.887 (0.2s)
+[qc2] FS51->FS60 N=231 src=0.935 raw=0.670 std=0.880 (0.2s)
+[qc2] FS51->ANTS N=235 src=0.933 raw=0.546 std=0.719 (0.2s)
+[qc2] FS51->CIVET N=204 src=0.954 raw=0.113 std=0.790 (0.2s)
+[qc2] FS53->FS51 N=233 src=0.934 raw=0.822 std=0.956 (0.2s)
+[qc2] FS53->FS60 N=227 src=0.944 raw=0.923 std=0.924 (0.2s)
+[qc2] FS53->ANTS N=231 src=0.933 raw=0.613 std=0.818 (0.2s)
+[qc2] FS53->CIVET N=200 src=0.922 raw=0.002 std=0.792 (0.1s)
+[qc2] FS60->FS51 N=231 src=0.934 raw=0.771 std=0.957 (0.2s)
+[qc2] FS60->FS53 N=227 src=0.931 raw=0.930 std=0.935 (0.2s)
+[qc2] FS60->ANTS N=229 src=0.918 raw=0.605 std=0.797 (0.2s)
+[qc2] FS60->CIVET N=200 src=0.942 raw=0.004 std=0.823 (0.2s)
+[qc2] ANTS->FS51 N=235 src=0.934 raw=0.894 std=0.891 (0.2s)
+[qc2] ANTS->FS53 N=231 src=0.953 raw=0.866 std=0.912 (0.3s)
+[qc2] ANTS->FS60 N=229 src=0.927 raw=0.802 std=0.892 (0.2s)
+[qc2] ANTS->CIVET N=204 src=0.951 raw=0.803 std=0.910 (0.2s)
+[qc2] CIVET->FS51 N=204 src=0.949 raw=0.088 std=0.935 (0.1s)
+[qc2] CIVET->FS53 N=200 src=0.911 raw=0.025 std=0.891 (0.1s)
+[qc2] CIVET->FS60 N=200 src=0.941 raw=0.019 std=0.916 (0.2s)
+[qc2] CIVET->ANTS N=204 src=0.949 raw=0.060 std=0.916 (0.1s)
+[lgbm] FS51->FS53 src=0.913 raw=0.766 std=0.879
+[lgbm] FS51->FS60 src=0.914 raw=0.716 std=0.881
+[lgbm] FS51->ANTS src=0.909 raw=0.687 std=0.776
+[lgbm] FS51->CIVET src=0.916 raw=0.534 std=0.757
+[lgbm] FS53->FS51 src=0.919 raw=0.901 std=0.938
+[lgbm] FS53->FS60 src=0.904 raw=0.893 std=0.887
+[lgbm] FS53->ANTS src=0.910 raw=0.786 std=0.817
+[lgbm] FS53->CIVET src=0.894 raw=0.526 std=0.773
+[lgbm] FS60->FS51 src=0.911 raw=0.888 std=0.930
+[lgbm] FS60->FS53 src=0.923 raw=0.921 std=0.921
+[lgbm] FS60->ANTS src=0.914 raw=0.775 std=0.817
+[lgbm] FS60->CIVET src=0.895 raw=0.599 std=0.772
+[lgbm] ANTS->FS51 src=0.915 raw=0.845 std=0.880
+[lgbm] ANTS->FS53 src=0.908 raw=0.807 std=0.848
+[lgbm] ANTS->FS60 src=0.909 raw=0.737 std=0.844
+[lgbm] ANTS->CIVET src=0.903 raw=0.745 std=0.807
+[lgbm] CIVET->FS51 src=0.921 raw=0.554 std=0.914
+[lgbm] CIVET->FS53 src=0.894 raw=0.536 std=0.863
+[lgbm] CIVET->FS60 src=0.910 raw=0.549 std=0.902
+[lgbm] CIVET->ANTS src=0.910 raw=0.556 std=0.871
+[monitor] FS51->FS53 mmd raw det=0.98 std det=0.07 ks raw=0.67 std=0.06
+[monitor] FS51->FS60 mmd raw det=1.00 std det=0.01 ks raw=0.89 std=0.06
+[monitor] FS51->ANTS mmd raw det=1.00 std det=0.17 ks raw=0.39 std=0.09
+[monitor] FS51->CIVET mmd raw det=1.00 std det=0.04 ks raw=1.00 std=0.05
+[monitor] FS53->FS51 mmd raw det=0.98 std det=0.09 ks raw=0.70 std=0.06
+[monitor] FS53->FS60 mmd raw det=0.99 std det=0.04 ks raw=0.04 std=0.03
+[monitor] FS53->ANTS mmd raw det=1.00 std det=0.12 ks raw=0.61 std=0.06
+[monitor] FS53->CIVET mmd raw det=1.00 std det=0.07 ks raw=1.00 std=0.06
+[monitor] FS60->FS51 mmd raw det=1.00 std det=0.04 ks raw=0.77 std=0.03
+[monitor] FS60->FS53 mmd raw det=0.99 std det=0.07 ks raw=0.07 std=0.01
+[monitor] FS60->ANTS mmd raw det=1.00 std det=0.07 ks raw=0.50 std=0.04
+[monitor] FS60->CIVET mmd raw det=1.00 std det=0.09 ks raw=1.00 std=0.08
+[monitor] ANTS->FS51 mmd raw det=1.00 std det=0.09 ks raw=0.65 std=0.09
+[monitor] ANTS->FS53 mmd raw det=1.00 std det=0.09 ks raw=0.99 std=0.04
+[monitor] ANTS->FS60 mmd raw det=1.00 std det=0.04 ks raw=1.00 std=0.01
+[monitor] ANTS->CIVET mmd raw det=1.00 std det=0.07 ks raw=1.00 std=0.09
+[monitor] CIVET->FS51 mmd raw det=1.00 std det=0.07 ks raw=1.00 std=0.13
+[monitor] CIVET->FS53 mmd raw det=1.00 std det=0.05 ks raw=1.00 std=0.03
+[monitor] CIVET->FS60 mmd raw det=1.00 std det=0.05 ks raw=1.00 std=0.07
+[monitor] CIVET->ANTS mmd raw det=1.00 std det=0.06 ks raw=1.00 std=0.08
+[monitor] FS51->FS53 mmd raw det=1.00 std det=0.10 ks raw=0.99 std=0.01
+[monitor] FS51->FS60 mmd raw det=1.00 std det=0.00 ks raw=0.99 std=0.01
+[monitor] FS51->ANTS mmd raw det=1.00 std det=0.25 ks raw=0.59 std=0.09
+[monitor] FS51->CIVET mmd raw det=1.00 std det=0.14 ks raw=1.00 std=0.06
+[monitor] FS53->FS51 mmd raw det=1.00 std det=0.10 ks raw=0.88 std=0.04
+[monitor] FS53->FS60 mmd raw det=1.00 std det=0.05 ks raw=0.00 std=0.01
+[monitor] FS53->ANTS mmd raw det=1.00 std det=0.32 ks raw=0.88 std=0.09
+[monitor] FS53->CIVET mmd raw det=1.00 std det=0.24 ks raw=1.00 std=0.14
+[monitor] FS60->FS51 mmd raw det=1.00 std det=0.01 ks raw=0.98 std=0.01
+[monitor] FS60->FS53 mmd raw det=1.00 std det=0.07 ks raw=0.04 std=0.04
+[monitor] FS60->ANTS mmd raw det=1.00 std det=0.23 ks raw=0.83 std=0.14
+[monitor] FS60->CIVET mmd raw det=1.00 std det=0.08 ks raw=1.00 std=0.10
+[monitor] ANTS->FS51 mmd raw det=1.00 std det=0.27 ks raw=0.81 std=0.23
+[monitor] ANTS->FS53 mmd raw det=1.00 std det=0.20 ks raw=1.00 std=0.12
+[monitor] ANTS->FS60 mmd raw det=1.00 std det=0.12 ks raw=1.00 std=0.06
+[monitor] ANTS->CIVET mmd raw det=1.00 std det=0.09 ks raw=1.00 std=0.22
+[monitor] CIVET->FS51 mmd raw det=1.00 std det=0.09 ks raw=1.00 std=0.17
+[monitor] CIVET->FS53 mmd raw det=1.00 std det=0.10 ks raw=1.00 std=0.06
+[monitor] CIVET->FS60 mmd raw det=1.00 std det=0.06 ks raw=1.00 std=0.06
+[monitor] CIVET->ANTS mmd raw det=1.00 std det=0.09 ks raw=1.00 std=0.06
+[monitor] FS51->FS53 mmd raw det=1.00 std det=0.07 ks raw=1.00 std=0.01
+[monitor] FS51->FS60 mmd raw det=1.00 std det=0.00 ks raw=1.00 std=0.01
+[monitor] FS51->ANTS mmd raw det=1.00 std det=0.65 ks raw=0.87 std=0.09
+[monitor] FS51->CIVET mmd raw det=1.00 std det=0.17 ks raw=1.00 std=0.06
+[monitor] FS53->FS51 mmd raw det=1.00 std det=0.10 ks raw=0.98 std=0.07
+[monitor] FS53->FS60 mmd raw det=1.00 std det=0.03 ks raw=0.00 std=0.01
+[monitor] FS53->ANTS mmd raw det=1.00 std det=0.30 ks raw=1.00 std=0.16
+[monitor] FS53->CIVET mmd raw det=1.00 std det=0.01 ks raw=1.00 std=0.20
+[monitor] FS60->FS51 mmd raw det=1.00 std det=0.04 ks raw=1.00 std=0.00
+[monitor] FS60->FS53 mmd raw det=1.00 std det=0.12 ks raw=0.01 std=0.01
+[monitor] FS60->ANTS mmd raw det=1.00 std det=0.71 ks raw=1.00 std=0.19
+[monitor] FS60->CIVET mmd raw det=1.00 std det=0.18 ks raw=1.00 std=0.15
+[monitor] ANTS->FS51 mmd raw det=1.00 std det=0.54 ks raw=0.99 std=0.43
+[monitor] ANTS->FS53 mmd raw det=1.00 std det=0.54 ks raw=1.00 std=0.34
+[monitor] ANTS->FS60 mmd raw det=1.00 std det=0.03 ks raw=1.00 std=0.07
+[monitor] ANTS->CIVET mmd raw det=1.00 std det=0.10 ks raw=1.00 std=0.51
+[monitor] CIVET->FS51 mmd raw det=1.00 std det=0.22 ks raw=1.00 std=0.34
+[monitor] CIVET->FS53 mmd raw det=1.00 std det=0.10 ks raw=1.00 std=0.07
+[monitor] CIVET->FS60 mmd raw det=1.00 std det=0.12 ks raw=1.00 std=0.07
+[monitor] CIVET->ANTS mmd raw det=1.00 std det=0.05 ks raw=1.00 std=0.06
+[mixed] target=FS51 N=669 within=0.914 xfer_raw=0.629 xfer_std=0.902 mix_all=0.914 mix_loo=0.906
+[mixed] target=FS53 N=669 within=0.912 xfer_raw=0.621 xfer_std=0.883 mix_all=0.898 mix_loo=0.894
+[mixed] target=FS60 N=669 within=0.918 xfer_raw=0.587 xfer_std=0.879 mix_all=0.898 mix_loo=0.853
+[mixed] target=ANTS N=669 within=0.912 xfer_raw=0.462 xfer_std=0.814 mix_all=0.909 mix_loo=0.784
+[mixed] target=CIVET N=669 within=0.906 xfer_raw=0.226 xfer_std=0.783 mix_all=0.880 mix_loo=0.216
+[loso] six largest sites (all-pipeline QC1 set): {'NYU': 102, 'USM': 79, 'UCLA_1': 68, 'UM_1': 58, 'YALE': 46, 'KKI': 44}
+[loso] FS51->FS53 done
+[loso] FS51->FS60 done
+[loso] FS51->ANTS done
+[loso] FS51->CIVET done
+[loso] FS53->FS51 done
+[loso] FS53->FS60 done
+[loso] FS53->ANTS done
+[loso] FS53->CIVET done
+[loso] FS60->FS51 done
+[loso] FS60->FS53 done
+[loso] FS60->ANTS done
+[loso] FS60->CIVET done
+[loso] ANTS->FS51 done
+[loso] ANTS->FS53 done
+[loso] ANTS->FS60 done
+[loso] ANTS->CIVET done
+[loso] CIVET->FS51 done
+[loso] CIVET->FS53 done
+[loso] CIVET->FS60 done
+[loso] CIVET->ANTS done
+done in 390s

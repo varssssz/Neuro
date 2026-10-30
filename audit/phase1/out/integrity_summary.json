@@ -1,0 +1,52 @@
+{
+  "n_common_features": 62,
+  "feature_order_identical_across_pipelines": true,
+  "qc_set_sizes": {
+    "manual_fail": 22,
+    "high_dim_flag": 105,
+    "stringent_pass": 246,
+    "auto_low_ants": 65,
+    "auto_low_civet": 71,
+    "auto_low_fs51": 55,
+    "auto_low_fs53": 58,
+    "auto_low_fs60": 61
+  },
+  "qc_pipeline_names_matched": true,
+  "every_subject_tested_exactly_once_per_seed": true,
+  "max_train_cal_overlap": 0,
+  "max_train_test_overlap": 0,
+  "max_cal_test_overlap": 0,
+  "recal_pool_share_from_train_mean": 0.749392300469064,
+  "max_recal_pool_test_overlap": 0,
+  "fold_sizes_train_cal_test_ranges": {
+    "n_train": [
+      414,
+      580
+    ],
+    "n_cal": [
+      139,
+      194
+    ],
+    "n_test": [
+      138,
+      194
+    ]
+  },
+  "share_folds_with_any_site_fallback": 1.0,
+  "share_test_subjects_in_fallback_sites": 0.12306438467807661,
+  "mixed_and_loso_site_selection_N": 669,
+  "loso_sites": {
+    "NYU": 102,
+    "USM": 79,
+    "UCLA_1": 68,
+    "UM_1": 58,
+    "YALE": 46,
+    "KKI": 44
+  },
+  "loso_max_overlap_train_or_cal_with_test": 0,
+  "loso_site_stats_transductive_all_rows": true,
+  "mixed_N_recomputed_vs_stored": [
+    669,
+    669
+  ]
+}

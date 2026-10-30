@@ -1,0 +1,10 @@
+Diff between results/ (first run, mid-session, before a script patch) and results_full/ (final clean run, used for the manuscript).
+
+All numeric values present in BOTH runs are identical (max abs diff 0.0) for every table, including transitions_main.csv (the table the manuscript's headline numbers come from).
+
+The only differences are extra COLUMNS present in results_full/ but absent from results/:
+- per_subject_atlas.csv, per_subject_qc0.csv, per_subject_qc2.csv: results_full adds `cov_wcp_reg` (the regularized weighted-conformal variant was added to summarize() after results/ was produced).
+- transitions_atlas.csv, transitions_qc0.csv, transitions_qc2.csv: results_full adds `cov_raw_seed_sd`, `cov_src_seed_sd`, `cov_std_seed_sd`, `frac_fold_below_088_{raw,src,std}` (seed-variability and fold-noise-floor diagnostics were added after results/'s atlas/QC0/QC2 stages ran with extras=False already excluding some of these; these diagnostics were present in results_full because that was the final full re-run after all patches).
+- run_log.txt differs in line count only (173 vs 21 lines) because results_full/ is the complete run through every stage; results/'s log was from an earlier partial/interrupted run before the final clean run.
+
+Conclusion: results_full/ is the authoritative, complete, final output and is what Experimental_Results/ in this package contains. results/ was an intermediate run kept only for this cross-check. No numeric value changed between runs where both had it computed -- this is additive-columns-only, not a reproducibility failure.

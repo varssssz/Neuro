@@ -1,0 +1,8 @@
+# ABIDE-derived subject-level outputs are regenerated locally and never committed
+**/per_subject_*.csv
+**/per_subject_seed.csv.gz
+.venv/
+__pycache__/
+*.pyc
+/data/
+compare-surf-tools/

@@ -1,0 +1,17 @@
+manuscript_claim,value,file,column,aggregation,denominator
+"Source coverage, mean 18 non-control",0.910,transitions_main.csv,cov_src,mean over control==False,18
+"Raw transfer coverage, mean (range 0.001-0.876)",0.489,transitions_main.csv,cov_raw,"mean/min/max, control==False",18
+"Per-pipeline std coverage, mean; 12/18 < 0.88; worst 0.757",0.853,transitions_main.csv,cov_std,mean; count<0.88,18
+"Per-site std coverage, mean (0.875-0.923); width 14.9 vs 12.1",0.897,transitions_main.csv,"cov_sitestd, width_src_site, width_src",mean,18
+Near-identity control raw coverage,0.899 / 0.908,transitions_main.csv,cov_raw,control==True,2
+"McNemar std: 16/18 p<0.05, 11 after Bonferroni",16 / 11,transitions_main.csv,mcnemar_p_std,seed 0 only; threshold 0.05/18 applied outside code,18
+WCP infinite share 90% / reg 79%,0.90 / 0.79,transitions_main.csv,"wcp_frac_inf, wcp_reg_frac_inf",mean,18 (verified: 0.896 / 0.794)
+Recalibration coverage k=10..160,0.813/0.900/0.948/0.922/0.909,recal_main.csv,mean_cov (variant=reform_raw),mean over control==False,18
+Age-bin coverage (Table 2),see table,per_subject_main.csv,cov_src/raw/std/sitestd by age,"subject-weighted pooled, control==False",18
+LightGBM raw/std mean,0.716 / 0.854,lgbm.csv,lgbm_cov_raw/std,mean over ALL,20 (inconsistent)
+Ridge comparator in LGBM sentence,0.531 / 0.859,transitions_main.csv,cov_raw/std,mean over ALL,20 (inconsistent)
+LOSO src/raw/std/sitestd/refit,0.867/0.504/0.818/0.910/0.919,loso_pooled.csv,cov_*,mean over ALL,20 (inconsistent; 18 gives 0.865/0.462/0.810/0.908/0.917)
+LOSO worst-site std,0.672,loso_pooled.csv,min_site_cov_std,mean over ALL,20 (18 gives 0.666)
+"MMD std detection, non-control",0.139,monitors_b50.csv,mmd_std_detect,"mean, control==False",18
+Mixed-pipeline mix_loo range,0.216-0.906,mixed_pipeline.csv,mix_loo,per target,5 targets
+QC0 / QC2 std range,0.771-0.923 / 0.719-0.957,transitions_qc0/qc2.csv,cov_std,"min/max, control==False",18

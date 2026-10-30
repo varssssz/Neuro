@@ -1,0 +1,18 @@
+,value
+max_abs_diff_detect_vs_stored,0.0
+mmd_raw_detect_mean_nc,1.0
+mmd_std_detect_mean_nc,0.1386111111111111
+mmd_std_detect_median_nc,0.10250000000000001
+ks_std_detect_mean_nc,0.09194444444444445
+far_mmd_raw_mean,0.06725
+far_mmd_std_mean,0.07075000000000001
+far_ks_std_mean,0.072
+far_max_any,0.16
+n_harmful_after_std,9
+n_harmful_ci,15
+n_harmful_ci_missed_by_mmd_majority,15
+n_harmful_ci_missed_by_ks_majority,15
+spearman_mmd_std_detect_vs_d_std,-0.485537449167566
+spearman_p,0.041086807017425196
+controls_mmd_raw_detect,"[1.0, 1.0]"
+controls_ks_raw_detect,"[0.0, 0.045]"
